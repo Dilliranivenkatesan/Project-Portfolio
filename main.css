@@ -5,8 +5,8 @@ p {
     color: white;
 }
 header,footer{
-    background-color: green;
-    color: whitesmoke;
+    background-color: rgb(208, 208, 76);
+    color: hotpink;
 }
 main{
     background-color: darkblue;
