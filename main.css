@@ -1,7 +1,14 @@
 body {
     background-color: blueviolet;
 }
-
-h1, p {
+p {
+    color: white;
+}
+header,footer{
+    background-color: green;
+    color: whitesmoke;
+}
+main{
+    background-color: darkblue;
     color: white;
 }
