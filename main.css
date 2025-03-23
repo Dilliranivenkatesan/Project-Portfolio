@@ -4,11 +4,11 @@ body {
 p {
     color: white;
 }
-header,footer{
+header, footer {
     background-color: rgb(208, 208, 76);
     color: hotpink;
 }
-main{
+main {
     background-color: darkblue;
     color: white;
 }
