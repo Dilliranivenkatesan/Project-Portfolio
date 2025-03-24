@@ -1,33 +1,68 @@
-html, body{
+body {
     padding: 0;
     margin: 0;
     height: 100%;
 }
-header{
+
+header {
     background-color: blueviolet;
+    color: white;
+    padding: 10px;
+    text-align: center;
 }
 
 footer {
     background-color: rgb(208, 208, 76);
     color: hotpink;
+    padding: 10px;
+    text-align: center;
 }
-main {
-    background-color: darkblue;
-    color: white;
-    height: 100%;
-}
-.Profile Picture{
-   /* background-color: rgb(250, 155, 155); */
-   gap: 10px;
-   display: flex;
-   flex-wrap: wrap;
-   padding: 50px;
-   color: azure;
 
+main {
+    background-color: green;
+    color: white;
+    display: flex;
+    justify-content: center; /* Centers the profile cards */
+    align-items: center; /* Vertically centers the cards */
+    gap: 20px; /* Adds space between the cards */
+    height: 100%;
+    padding: 20px;
 }
-img {
-width: 100px;
-height: 100px;
-min-width: 100px;
-max-width: 100px;
+
+section {
+    background-color: red;
+    width: 150px;
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Centers content inside the card */
+    justify-content: space-between; /* Space out content inside the card */
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.image-container {
+    width: 80%;
+    height: 40%;
+    object-fit: contain;
+    display: flex;
+    justify-content: center; /* Centers the image */
+}
+
+.profile-picture {
+    width: 100%;
+    max-width: 120px;
+    height: auto;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.name {
+    font-size: 18px;
+    margin-top: 10px;
+}
+
+.job-title {
+    font-size: 14px;
+    color: lightgray;
 }
